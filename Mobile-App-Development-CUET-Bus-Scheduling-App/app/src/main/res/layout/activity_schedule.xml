@@ -1,0 +1,294 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/md_theme_tertiaryContainer_mediumContrast">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFDDDDDD"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bus Name"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/poppinslight"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Route No"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Padma"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="2"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Meghna"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="2"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Jamuna"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="2"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Rupsha"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="2"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Ichamoti"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="2"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Shangu"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="3"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Tistha"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="2"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Halda"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="3"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Matamuhuri"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="3"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Turaag"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="2"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Shurma"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="2"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Gomoti"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="1"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Buriganga"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                    <TextView
+                        android:text="2"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppinslight"/>
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notice"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppinslight"
+                android:layout_marginTop="30dp">
+            </TextView>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+
